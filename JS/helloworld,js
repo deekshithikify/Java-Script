@@ -1,0 +1,69 @@
+<head>
+    <title>hello page</title>
+</head>
+<body>
+    <h3> welcome to java script tutorials</h3>
+
+    <script>
+       /* document.write("hello world javascirpt");
+        alert("hello world javascript") */
+
+        console.log("hello world javascript");
+
+        //case sensitive
+        var count=10;
+
+        //dynamic type determination
+        var id=10;
+        console.log("type is" ,typeof id, "and value is",id);
+        id="abc";
+        console.log("type is" ,typeof id, "and value is",id);
+
+        //var vs const
+        var id=10;
+        vc=11;
+        console.log("type is" ,typeof vc, "and value is",vc);
+        const cv=10;
+        cv=11
+        console.log("type is" ,typeof vc, "and value is",cv);
+      
+        //global vs local
+        var counter=999;
+              //global vs local
+              {
+                let counter=10;
+                console.log("inside block counter value=",counter);
+              }
+              console.log(counter);
+              console.log("outside block counter value",counter);
+        
+              
+
+              //primitive data types
+        //number - integer
+        var v=10;
+        console.log("value of v is ",v,"and type of v is ",typeof v);
+
+        //number - float
+        var v=12.3;
+        console.log("value of v is ",v,"and type of v is ",typeof v);
+
+        //number - string
+        var v="priya";
+        console.log("value of v is ",v,"and type of v is ",typeof v);
+
+        //number Boolean true/false 
+        var v=true;
+        console.log("value of v is ",v,"and type of v is ", typeof(v));
+
+        //number Undefined
+        var v1;
+        console.log("value of v is ",v1, "and type of v is", typeof v1);
+
+        //number Symbol unique used for Ids 
+        var v;symbol.for("ramesh");
+        console.log("value of v is ",v,"and type of v is ", typeof v);
+
+
+    </script>
+</body>
